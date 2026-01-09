@@ -8,5 +8,5 @@ router.post('/register', (req, res) => {
   // 仮のレスポンス
   return res.status(201).json({ id: 1, name, email });
 });
-
+//
 module.exports = router;
